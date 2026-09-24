@@ -1,5 +1,7 @@
 package com.minicash;
 
+import java.util.Map;
+
 public interface MSocketListener {
 
     /**
@@ -9,8 +11,8 @@ public interface MSocketListener {
 
     /**
      * データ受信時に実行される処理
-     * @param rawJson 受信した raw JSON 文字列
+     * @param data 受信したバース済みのデータ
      */
-    void onReceive(String rawJson);
+    void onReceive(Map<String,Object> data);
 
 }

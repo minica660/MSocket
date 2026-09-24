@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.github.minica660"
-version = "1.0"
+version = "1.2"
 
 publishing {
     publications {
